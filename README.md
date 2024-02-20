@@ -15,12 +15,12 @@ This repository contains implementation of important Data Structures and Algorit
   	- Assembly Line Scheduling
 	- Matrix Multiplication
 	- Longest Common Subsequence
-        - 0-1 Knapsack
+	- 0-1 Knapsack
 	- Travelling Salesman
 
 - ### BACKTRACKING
  	- N Queen Problem
-     	- Subset Sum
+	- Subset Sum
 	- Graph Coloring
 
 - ### BRANCH AND BOUND
