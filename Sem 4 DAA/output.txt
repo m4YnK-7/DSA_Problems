@@ -1,0 +1,9 @@
+Enter number of items
+Enter the M of the knapsack 
+Enter the profits of the item 1: 
+Enter the weight of the item 1: 
+Enter the profits of the item 2: 
+Enter the weight of the item 2: 
+Enter the profits of the item 3: 
+Enter the weight of the item 3: 
+Maximum profit is 31.5
