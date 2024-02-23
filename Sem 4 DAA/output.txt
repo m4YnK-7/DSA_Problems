@@ -1,16 +1,2 @@
-Enter number of items
-Enter the M of the knapsack 
-Enter the profits of the item 1: 
-Enter the weight of the item 1: 
-Enter the profits of the item 2: 
-Enter the weight of the item 2: 
-Enter the profits of the item 3: 
-Enter the weight of the item 3: 
-Enter the profits of the item 4: 
-Enter the weight of the item 4: 
-0 0 0 0 0 0 0 0 0 
-0 0 1 1 1 1 1 1 1 
-0 0 1 2 2 3 3 3 3 
-0 0 1 2 2 3 5 5 6 
-0 0 1 2 2 6 6 7 8 
-The maximum profit is: 8
+Activity Selected: 
+3->2->5->6->END
