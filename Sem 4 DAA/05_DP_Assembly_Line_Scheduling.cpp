@@ -12,8 +12,6 @@ e1,e2: exit time for both lines
 L : path table
 */
 
-
-
 int fun(vector<vector<int>> a, vector<vector<int>> t, int cl, int cs, int x1, int x2, int n,int L[][2]){ 
 	// base case 
 	if (cs == n - 1) { 
@@ -59,25 +57,5 @@ int main() {
 	int y = fun(a, t, 1, 0, x1, x2, n,L) + e2 + a[1][0]; 
 	cout <<"The minimum time required for the assembly is: "<< min(x, y) << endl; 
 
-	// int cl = 1;
-
-	// for(int i=0;i<n-1;i++){
-	// 	for(int j=0;j<2;j++){
-	// 		cout<<L[i][j]+1<<" ";
-	// 	}
-	// 	cout<<endl;
-	// }
-
-	// for(int i=n-2;i>=0;i--){
-	// 	if(L[i][cl]==1){
-	// 		cout<<"2->";
-	// 		cl = !cl;
-	// 	}
-	// 	else{
-	// 		cout<<"1->";
-	// 	}
-	// }
-
-	// path(L,n);
 }
 
