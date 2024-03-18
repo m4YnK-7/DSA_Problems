@@ -31,7 +31,7 @@ int main(){
     for(int i=0;i<n;i++){
         if(lcs[m][i]!=lcs[m][i+1]){
             cs += A[i];
-        }
+    }
     }
     cout<<cs;
     return 0;

@@ -26,11 +26,9 @@ bool isSafe(int** arr,int x,int y, int n){
             return false;
         }
         row--;
-        col++;
-        
+        col++;       
     }
-    return true;
-        
+    return true;       
 }
 
 bool nQueen(int** arr,int x,int n ){

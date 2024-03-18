@@ -48,6 +48,7 @@ int main(){
     }
 
     cout<<"Maximum profit is "<<total_profit;
+
     return 0;
 }
 
@@ -58,7 +59,6 @@ void sorting(int n,float* values,int* profit,int* weight,int *x){
                 swap(values[j],values[j+1]);
                 swap(profit[j],profit[j+1]);
                 swap(weight[j],weight[j+1]);
-                swap(x[j],x[j+1]);
             }
         }
     }
