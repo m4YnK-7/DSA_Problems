@@ -19,10 +19,10 @@ class Activity{
 
 int main(){
     // Code for easier I/O.
-    #ifndef ONLINE_JUDGE
-    freopen("input.txt","r",stdin);
-    freopen("output.txt","w",stdout);
-    #endif
+    // #ifndef ONLINE_JUDGE
+    // freopen("input.txt","r",stdin);
+    // freopen("output.txt","w",stdout);
+    // #endif
     
     // a,b : temporary variables to input start and finish time
     int n,a,b;

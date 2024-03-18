@@ -57,4 +57,12 @@ int main(){
     cout<<"The maximum profit is: "<<table[n][total_capacity];
     return 0;
 }
+/*
+Sample Input:
+n = 4
+knapsack_weight = 8 
+profit = {1,2,5,6}
+weights = {2,3,4,5}
 
+Output : 8
+*/
