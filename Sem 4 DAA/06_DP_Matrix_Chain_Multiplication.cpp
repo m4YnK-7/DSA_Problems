@@ -13,8 +13,7 @@ int MatrixChainOrder(int p[], int i, int j){
 	// recursively calculate count of multiplications 
 	// for each parenthesis placement 
 	// and return the minimum count
-	for (k = i; k < j; k++) 
-	{
+	for (k = i; k < j; k++) {
 		count = MatrixChainOrder(p, i, k)
 				+ MatrixChainOrder(p, k + 1, j)
 				+ p[i - 1] * p[k] * p[j];
@@ -27,8 +26,7 @@ int MatrixChainOrder(int p[], int i, int j){
 }
 
 // Driver Code
-int main()
-{
+int main(){
 	int arr[] = { 1, 2, 3, 4, 3 };
 	int N = sizeof(arr) / sizeof(arr[0]);
 
